@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa'; // Icons for mobile menu
 
 const ContactPage = () => {
   // Form state
@@ -28,9 +27,6 @@ const ContactPage = () => {
     setFormData({ name: '', email: '', message: '' }); // Reset form
   };
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   return (
     <div>
