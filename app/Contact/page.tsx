@@ -9,7 +9,6 @@ const ContactPage = () => {
     message: ''
   });
   
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for mobile menu
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
