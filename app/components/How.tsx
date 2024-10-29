@@ -7,8 +7,9 @@ const RevenueSection = () => {
         {/* Heading */}
         <h2 className="text-4xl font-bold text-blue-900 mb-6">How We Drive Revenue</h2>
         <p className="text-lg text-gray-600 mb-12">
-          Our data-driven strategies and expert marketing services help businesses achieve new levels of success. Here's how we can help drive revenue for you:
-        </p>
+  Our data-driven strategies and expert marketing services help businesses achieve new levels of success. Here&apos;s how we can help drive revenue for you:
+</p>
+
 
         {/* Cards Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
